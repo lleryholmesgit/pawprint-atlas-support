@@ -1,0 +1,618 @@
+{
+  "name": "Pawprint Atlas",
+  "alternateName": "爪印环球",
+  "officialWebsite": "https://lleryholmesgit.github.io/pawprint-atlas-support/",
+  "appStore": "https://apps.apple.com/us/app/pawprint-atlas/id6814640713",
+  "verifiedOn": "2026-10-01",
+  "version": "1.1",
+  "facts": {
+    "Name": "Pawprint Atlas (爪印环球)",
+    "Developer": "Yuanlin Deng; listed as YUANLIN DENG on the App Store",
+    "Platform": "iPhone · iOS 18 or later",
+    "Price and market": "$0.49 paid download on the US App Store. No subscriptions or in-app purchases.",
+    "Languages": "English, Simplified Chinese and Spanish",
+    "Game content": "30 main destinations, 3 hidden realms, 8 animal companions, 99 local discoveries",
+    "Puzzle design": "4 bridge destinations and 29 configurations across 12 non-bridge puzzle families",
+    "Pace and assistance": "No timer. Visible rules and goals. Optional light-bulb hints, undo and reset.",
+    "Connection": "Playable entirely offline after download; no account needed",
+    "Game data": "No ads, analytics or tracking SDKs. Progress and preferences saved on the device.",
+    "Version checked": "1.1 · October 1, 2026",
+    "App Store ID": "6814640713"
+  },
+  "destinations": [
+    {
+      "id": "kyoto",
+      "names": [
+        "京都",
+        "Kyoto",
+        "Kioto"
+      ],
+      "landmarks": [
+        "樱花鸟居",
+        "Blossom Torii",
+        "Torii entre Cerezos"
+      ],
+      "puzzles": [
+        "桥梁机关",
+        "Bridge puzzle",
+        "Puzle de puentes"
+      ]
+    },
+    {
+      "id": "beijing",
+      "names": [
+        "北京",
+        "Beijing",
+        "Pekín"
+      ],
+      "landmarks": [
+        "天坛祈年殿",
+        "Hall of Prayer",
+        "Templo del Cielo"
+      ],
+      "puzzles": [
+        "桥梁机关",
+        "Bridge puzzle",
+        "Puzle de puentes"
+      ]
+    },
+    {
+      "id": "guilin",
+      "names": [
+        "桂林",
+        "Guilin",
+        "Guilin"
+      ],
+      "landmarks": [
+        "山水石林",
+        "Karst Peaks",
+        "Picos de Piedra"
+      ],
+      "puzzles": [
+        "溪流引舟",
+        "Bamboo river",
+        "Río de bambú"
+      ]
+    },
+    {
+      "id": "seoul",
+      "names": [
+        "首尔",
+        "Seoul",
+        "Seúl"
+      ],
+      "landmarks": [
+        "南山塔",
+        "Namsan Tower",
+        "Torre Namsan"
+      ],
+      "puzzles": [
+        "山风送纸鸢",
+        "Hilltop kite",
+        "Cometa del monte"
+      ]
+    },
+    {
+      "id": "fuji",
+      "names": [
+        "富士山",
+        "Mount Fuji",
+        "Monte Fuji"
+      ],
+      "landmarks": [
+        "雪顶富士",
+        "Snowcapped Fuji",
+        "Fuji Nevado"
+      ],
+      "puzzles": [
+        "雪帽叠山",
+        "Snowcap stack",
+        "Cumbre nevada"
+      ]
+    },
+    {
+      "id": "bangkok",
+      "names": [
+        "曼谷",
+        "Bangkok",
+        "Bangkok"
+      ],
+      "landmarks": [
+        "金色佛塔",
+        "Golden Stupa",
+        "Estupa Dorada"
+      ],
+      "puzzles": [
+        "水市分流",
+        "Market canals",
+        "Canales del mercado"
+      ]
+    },
+    {
+      "id": "angkor",
+      "names": [
+        "吴哥",
+        "Angkor",
+        "Angkor"
+      ],
+      "landmarks": [
+        "莲花石塔",
+        "Lotus Towers",
+        "Torres de Loto"
+      ],
+      "puzzles": [
+        "石窗光影",
+        "Temple shadows",
+        "Sombras del templo"
+      ]
+    },
+    {
+      "id": "bali",
+      "names": [
+        "巴厘岛",
+        "Bali",
+        "Bali"
+      ],
+      "landmarks": [
+        "天堂之门",
+        "Gates of Heaven",
+        "Puertas del Cielo"
+      ],
+      "puzzles": [
+        "双门剪影",
+        "Twin gate patterns",
+        "Patrones gemelos"
+      ]
+    },
+    {
+      "id": "agra",
+      "names": [
+        "阿格拉",
+        "Agra",
+        "Agra"
+      ],
+      "landmarks": [
+        "白色陵园",
+        "White Mausoleum",
+        "Mausoleo Blanco"
+      ],
+      "puzzles": [
+        "月池倒影",
+        "Moonpool reflection",
+        "Reflejo lunar"
+      ]
+    },
+    {
+      "id": "singapore",
+      "names": [
+        "新加坡",
+        "Singapore",
+        "Singapur"
+      ],
+      "landmarks": [
+        "鱼尾狮",
+        "Merlion",
+        "Merlión"
+      ],
+      "puzzles": [
+        "雨林光路",
+        "Canopy light",
+        "Luz del bosque"
+      ]
+    },
+    {
+      "id": "paris",
+      "names": [
+        "巴黎",
+        "Paris",
+        "París"
+      ],
+      "landmarks": [
+        "埃菲尔铁塔",
+        "Eiffel Tower",
+        "Torre Eiffel"
+      ],
+      "puzzles": [
+        "花篮天平",
+        "Flower balance",
+        "Balanza de flores"
+      ]
+    },
+    {
+      "id": "london",
+      "names": [
+        "伦敦",
+        "London",
+        "Londres"
+      ],
+      "landmarks": [
+        "大本钟",
+        "Big Ben",
+        "Big Ben"
+      ],
+      "puzzles": [
+        "钟楼乐句",
+        "Clocktower melody",
+        "Melodía del reloj"
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "names": [
+        "阿姆斯特丹",
+        "Amsterdam",
+        "Ámsterdam"
+      ],
+      "landmarks": [
+        "运河小屋",
+        "Canal Houses",
+        "Casas del Canal"
+      ],
+      "puzzles": [
+        "郁金香水渠",
+        "Tulip irrigation",
+        "Riego de tulipanes"
+      ]
+    },
+    {
+      "id": "barcelona",
+      "names": [
+        "巴塞罗那",
+        "Barcelona",
+        "Barcelona"
+      ],
+      "landmarks": [
+        "彩色尖塔",
+        "Mosaic Spires",
+        "Agujas de Mosaico"
+      ],
+      "puzzles": [
+        "彩陶拼画",
+        "Mosaic tiles",
+        "Mosaico de azulejos"
+      ]
+    },
+    {
+      "id": "rome",
+      "names": [
+        "罗马",
+        "Rome",
+        "Roma"
+      ],
+      "landmarks": [
+        "古罗马斗兽场",
+        "Colosseum",
+        "Coliseo"
+      ],
+      "puzzles": [
+        "拱券石塔",
+        "Arch stone towers",
+        "Torres de piedra"
+      ]
+    },
+    {
+      "id": "santorini",
+      "names": [
+        "圣托里尼",
+        "Santorini",
+        "Santorini"
+      ],
+      "landmarks": [
+        "蓝顶教堂",
+        "Blue Domes",
+        "Cúpulas Azules"
+      ],
+      "puzzles": [
+        "桥梁机关",
+        "Bridge puzzle",
+        "Puzle de puentes"
+      ]
+    },
+    {
+      "id": "istanbul",
+      "names": [
+        "伊斯坦布尔",
+        "Istanbul",
+        "Estambul"
+      ],
+      "landmarks": [
+        "穹顶清真寺",
+        "Great Dome",
+        "Gran Cúpula"
+      ],
+      "puzzles": [
+        "渡轮寻港",
+        "Ferry harbor",
+        "Puerto del ferry"
+      ]
+    },
+    {
+      "id": "cappadocia",
+      "names": [
+        "卡帕多奇亚",
+        "Cappadocia",
+        "Capadocia"
+      ],
+      "landmarks": [
+        "晨光热气球",
+        "Dawn Balloons",
+        "Globos del Alba"
+      ],
+      "puzzles": [
+        "气球配重",
+        "Balloon ballast",
+        "Lastre del globo"
+      ]
+    },
+    {
+      "id": "cairo",
+      "names": [
+        "开罗",
+        "Cairo",
+        "El Cairo"
+      ],
+      "landmarks": [
+        "沙漠金字塔",
+        "Desert Pyramids",
+        "Pirámides del Desierto"
+      ],
+      "puzzles": [
+        "日影描摹",
+        "Sun silhouettes",
+        "Siluetas solares"
+      ]
+    },
+    {
+      "id": "marrakech",
+      "names": [
+        "马拉喀什",
+        "Marrakesh",
+        "Marrakech"
+      ],
+      "landmarks": [
+        "赭红庭院",
+        "Ochre Courtyard",
+        "Patio Ocre"
+      ],
+      "puzzles": [
+        "织毯拼花",
+        "Carpet patterns",
+        "Patrones de alfombra"
+      ]
+    },
+    {
+      "id": "newYork",
+      "names": [
+        "纽约",
+        "New York",
+        "Nueva York"
+      ],
+      "landmarks": [
+        "自由女神",
+        "Lady Liberty",
+        "Estatua de la Libertad"
+      ],
+      "puzzles": [
+        "港口货秤",
+        "Harbor scales",
+        "Balanza del puerto"
+      ]
+    },
+    {
+      "id": "sanFrancisco",
+      "names": [
+        "旧金山",
+        "San Francisco",
+        "San Francisco"
+      ],
+      "landmarks": [
+        "金门大桥",
+        "Golden Gate",
+        "Puente Golden Gate"
+      ],
+      "puzzles": [
+        "雾中灯塔",
+        "Fog beacons",
+        "Faros en la niebla"
+      ]
+    },
+    {
+      "id": "mexicoCity",
+      "names": [
+        "墨西哥城",
+        "Mexico City",
+        "Ciudad de México"
+      ],
+      "landmarks": [
+        "阶梯金字塔",
+        "Step Pyramid",
+        "Pirámide Escalonada"
+      ],
+      "puzzles": [
+        "太阳图腾",
+        "Sun mosaic",
+        "Mosaico solar"
+      ]
+    },
+    {
+      "id": "rio",
+      "names": [
+        "里约热内卢",
+        "Rio de Janeiro",
+        "Río de Janeiro"
+      ],
+      "landmarks": [
+        "山顶基督像",
+        "Christ the Redeemer",
+        "Cristo Redentor"
+      ],
+      "puzzles": [
+        "桑巴接拍",
+        "Samba rhythm",
+        "Ritmo de samba"
+      ]
+    },
+    {
+      "id": "machuPicchu",
+      "names": [
+        "马丘比丘",
+        "Machu Picchu",
+        "Machu Picchu"
+      ],
+      "landmarks": [
+        "山间梯田",
+        "Mountain Terraces",
+        "Terrazas de la Montaña"
+      ],
+      "puzzles": [
+        "梯田垒石",
+        "Terrace stones",
+        "Piedras de terraza"
+      ]
+    },
+    {
+      "id": "sydney",
+      "names": [
+        "悉尼",
+        "Sydney",
+        "Sídney"
+      ],
+      "landmarks": [
+        "悉尼歌剧院",
+        "Opera House",
+        "Ópera de Sídney"
+      ],
+      "puzzles": [
+        "贝壳拼帆",
+        "Shell sails",
+        "Velas de conchas"
+      ]
+    },
+    {
+      "id": "auckland",
+      "names": [
+        "奥克兰",
+        "Auckland",
+        "Auckland"
+      ],
+      "landmarks": [
+        "天空塔",
+        "Sky Tower",
+        "Torre del Cielo"
+      ],
+      "puzzles": [
+        "桥梁机关",
+        "Bridge puzzle",
+        "Puzle de puentes"
+      ]
+    },
+    {
+      "id": "easterIsland",
+      "names": [
+        "复活节岛",
+        "Easter Island",
+        "Isla de Pascua"
+      ],
+      "landmarks": [
+        "摩艾石像",
+        "Moai Statues",
+        "Estatuas Moái"
+      ],
+      "puzzles": [
+        "石像叠冠",
+        "Moai crowns",
+        "Coronas moái"
+      ]
+    },
+    {
+      "id": "reykjavik",
+      "names": [
+        "雷克雅未克",
+        "Reykjavik",
+        "Reikiavik"
+      ],
+      "landmarks": [
+        "阶梯教堂",
+        "Stepped Church",
+        "Iglesia Escalonada"
+      ],
+      "puzzles": [
+        "极光折射",
+        "Aurora optics",
+        "Óptica de aurora"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "names": [
+        "南极",
+        "South Pole",
+        "Polo Sur"
+      ],
+      "landmarks": [
+        "冰川灯塔",
+        "Glacier Lighthouse",
+        "Faro del Glaciar"
+      ],
+      "puzzles": [
+        "企鹅滑冰",
+        "Penguin slide",
+        "Pingüino sobre hielo"
+      ]
+    },
+    {
+      "id": "whaleRoute",
+      "names": [
+        "云鲸航道",
+        "Cloud Whale",
+        "Ballena de Nubes"
+      ],
+      "landmarks": [
+        "云端白鲸",
+        "Sky Whale",
+        "Ballena Celeste"
+      ],
+      "puzzles": [
+        "鲸歌回应",
+        "Whale song",
+        "Canto de ballena"
+      ]
+    },
+    {
+      "id": "moonGarden",
+      "names": [
+        "月背花园",
+        "Moon Garden",
+        "Jardín Lunar"
+      ],
+      "landmarks": [
+        "月光花树",
+        "Moonflower Tree",
+        "Árbol de Flores de Luna"
+      ],
+      "puzzles": [
+        "月珠引力",
+        "Moon gravity",
+        "Gravedad lunar"
+      ]
+    },
+    {
+      "id": "upsideLibrary",
+      "names": [
+        "倒悬图书馆",
+        "Lost Library",
+        "Biblioteca Invertida"
+      ],
+      "landmarks": [
+        "倒悬书塔",
+        "Inverted Book Tower",
+        "Torre de Libros Invertida"
+      ],
+      "puzzles": [
+        "书页归序",
+        "Books in order",
+        "Libros en orden"
+      ]
+    }
+  ]
+}
